@@ -39,12 +39,11 @@ public class Sketch extends PApplet {
       fill(255);
       rect(0, 0, width, height);
     }
-    
   }
   
-  // All other defined methods are written below:
   /**
    * updates player position
+   * @author Geo D.
    */
   public void playerMovement(){
     if (blnLeft){
@@ -72,6 +71,7 @@ public class Sketch extends PApplet {
 
   /**
    * prints visuals: snow, player, lives
+   * @author Geo D.
    */
   public void visuals(){
     fill(255);
@@ -90,6 +90,7 @@ public class Sketch extends PApplet {
 
   /**
    * checks if player collides with snow 
+   * @author Geo D.
    */
   public void snowCollision(){
     for (int i = 0; i < 200; i++){
